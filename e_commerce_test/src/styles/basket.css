@@ -1,0 +1,45 @@
+.basketProducts {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-gap: 2rem;
+    margin: 1rem 0;
+    border: 1px solid;
+    margin-top: 5rem;
+  }
+  .basketProducts .title{
+      text-align: center;
+      font-size: .5rem;
+      margin-bottom: 2rem;
+  }
+  .basketProducts .image{
+      width: 100%;
+      height: 300px;
+      object-fit: cover;
+  }
+  .basketProducts .image img{
+      width:200px;
+      height: 200px;
+      object-fit: cover;
+  }
+  .basketProducts .price{
+      text-align: center;
+      font-size: 1.5rem;
+      margin-bottom: 1rem;
+  }
+  .basketProducts .desc{
+      text-align: center;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      
+  }
+  .basketProducts .remove{
+      text-align: center;
+      font-size: 1.2rem;
+      margin-bottom: 1rem;
+      color: red;
+      cursor: pointer;
+  }
+  .basketProducts .remove button{
+      background: none;
+      cursor: pointer;
+  }
